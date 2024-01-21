@@ -1,0 +1,3 @@
+Here the challenge was to implement a toaster--i.e. conditionally show a hidden item when the mouse leaves the window. Going in, I knew this would require the use of a way to track where the cursor is on the screen. The challenge also called for the implementation of a close button of course.
+
+I surprised myself with how simple this was, and how easy the `mouseleave` event listener is to work with, at least in this use case. As to the close button, there are two possible implementations from a UX perspective. Either (a) re-add the class that causes the element to re-disappear, or (b) cause the element to be removed from the DOM.
