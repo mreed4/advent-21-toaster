@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@700&display=swap");
 
 :root {
-  --primary: #FAFF00;
+  --primary: #faff00;
 }
 
 body {
@@ -9,11 +9,11 @@ body {
   margin: 0;
   min-width: 100vw;
   min-height: 100vh;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .toaster {
-  background: #8D58FF;
+  background: #8d58ff;
   color: white;
   padding: 55px;
   width: 520px;
@@ -45,13 +45,13 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  font-family: 'Bebas Neue', cursive;
-  color: #3200A0;
+  font-family: "Bebas Neue", cursive;
+  color: #3200a0;
   cursor: pointer;
 }
 
 h1 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   text-transform: uppercase;
   font-size: 5.875rem;
   padding: 0;
@@ -61,7 +61,7 @@ h1 {
 }
 
 p {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 1rem;
   line-height: 1.875rem;
   padding-bottom: 30px;
@@ -86,7 +86,7 @@ form {
 
 label {
   color: var(--primary);
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1rem;
@@ -95,17 +95,17 @@ label {
   margin-bottom: 10px;
 }
 
-input[type=email] {
+input[type="email"] {
   background: #b686ff;
   width: 325px;
   height: 55px;
   border-radius: 4px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   color: black;
   font-size: 1.125;
   padding: 0 20px;
   border: none;
-  margin-right: 10px;;
+  margin-right: 10px;
 }
 
 .submit {
